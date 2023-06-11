@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>webpack 4 quickstart</title>
+    <style>
+          html, body {margin: 0; height: 100%; overflow: hidden}
+          .container {
+                position: relative;
+          }
+          #blocker {
+                position: absolute;
+                  height: 100%;
+                  width: 100%;    
+          }
+          #instructions {
+                padding-top: 40px;
+                margin: auto;
+                vertical-align: middle;
+                text-align: center;
+                height: 100%;
+                width: 100%;
+          }
+          .scoreDiv {
+                position: absolute;
+                width: 100%;
+                text-align: center;
+          }
+    </style>
+</head>
+<body>
+      <div class="scoreDiv">
+            <span>Skóre</span>
+            <span class="score"></span>
+      </div>
+      <div id="blocker">
+                  <div id="instructions" style>
+                              <span style="font-size:40px">Click to play</span>
+                              <br>
+                              (W, A, S, D = Move, SPACE = Jump, MOUSE = Look around)
+                        </div>
+      </div>
+      <div class="container">
+
+      </div>
+
+</body>
+</html>
